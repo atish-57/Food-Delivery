@@ -8,7 +8,7 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY)
 
 const placeOrder = async (req, res) => {
 
-    const frontend_url = process.env.FRONTEND_URL;
+    const frontend_url = 'https://tomato-users.netlify.app';
 
     try {
         const newOrder = new orderModel({
