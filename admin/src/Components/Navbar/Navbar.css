@@ -9,6 +9,7 @@
 }
 
 .navbar .profile{
-    width: 40px;
+    width: 50px;
+    border-radius: 50%;
 }
 
